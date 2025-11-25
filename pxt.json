@@ -1,0 +1,27 @@
+{
+    "name": "try",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-kitronik-128x64display": "github:kitronikltd/pxt-kitronik-128x64display#v0.4.1",
+        "display-shield": "github:microbit-apps/display-shield#v1.0.9"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
